@@ -1,0 +1,61 @@
+header {
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  border-bottom: 1px solid var(--secondary-color);
+  background-color: var(--primary-bg);
+  z-index: 1;
+}
+
+.header-brand > a {
+  font-family: "Marck Script", cursive;
+  font-size: 2rem;
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+main {
+  width: 100%;
+  object-fit: cover;
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+}
+
+i {
+  cursor: pointer;
+}
+
+.nav {
+  gap: 1.5rem;
+}
+
+.search {
+  width: 30vw;
+}
+
+.offer-card {
+  width: 100%;
+  height: 5rem;
+}
+
+.card {
+  width: 95%;
+}
+
+.card-img {
+  width: 10rem;
+  height: 10rem;
+}
+
+.shopping-offer {
+  background-color: var(--secondary-color);
+}
+
+.grid-2-col {
+  grid-gap: 2rem;
+}
