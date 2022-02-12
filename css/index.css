@@ -1,23 +1,7 @@
-header {
-  height: 10vh;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  position: sticky;
-  top: 0;
-  border-bottom: 1px solid var(--secondary-color);
-  background-color: var(--primary-bg);
-  z-index: 1;
-}
+/* header */
+@import url('./header.css');
 
-.header-brand > a {
-  font-family: "Marck Script", cursive;
-  font-size: 2rem;
-  color: var(--primary-color);
-  font-weight: bold;
-}
-
+/* main */
 main {
   width: 100%;
   object-fit: cover;
@@ -26,25 +10,14 @@ main {
   height: 80vh;
 }
 
-i {
-  cursor: pointer;
-}
-
-.nav {
-  gap: 1.5rem;
-}
-
-.search {
-  width: 30vw;
+/* card */
+.card {
+  width: 95%;
 }
 
 .offer-card {
   width: 100%;
   height: 5rem;
-}
-
-.card {
-  width: 95%;
 }
 
 .card-img {
