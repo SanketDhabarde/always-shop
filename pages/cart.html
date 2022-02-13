@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Sanket Dhabarde" />
+    <meta name="description" content="E-commerce application" />
+
+    <!-- UI library -->
+    <link
+      rel="stylesheet"
+      href="https://always-ui.netlify.app/CSS/always.css"
+    />
+
+    <!-- styles -->
+    <link rel="stylesheet" href="../css/cart.css" />
+
+    <title>E-commerce | Cart</title>
+  </head>
+  <body>
+    <div class="container px-5">
+      <header>
+        <div class="header-brand">
+          <a href="../index.html" class="btn-link">Always Shop</a>
+        </div>
+        <div class="search">
+          <i class="far fa-search"></i>
+          <input
+            type="text"
+            placeholder="Search..."
+            class="input-textbox p-1"
+          />
+        </div>
+        <div class="nav center-div">
+          <button class="btn">Login</button>
+          <a href="#" class="badge-icon-wrapper center-div p-1 btn-link">
+            <i class="far fa-heart"></i>
+            <span class="badge-icon">0</span>
+          </a>
+          <a href="#" class="badge-icon-wrapper center-div p-1 btn-link">
+            <i class="fas fa-cart-plus"></i>
+            <span class="badge-icon">6</span>
+          </a>
+        </div>
+      </header>
+      <main class="p-3">
+        <div class="heading p-2 flex center-div">
+          <h3>My cart <span>(2)</span></h3>
+        </div>
+
+        <div class="cart grid-2-col">
+          <div class="products px-3">
+            <div class="card m-1">
+              <div class="card-section grid-2-col center-div">
+                <img
+                  class="card-img horizontal-card-img img-responsive p-1"
+                  src="../Assets/Images/card.svg"
+                  alt="card img"
+                />
+                <div class="card-header p-2">
+                  <h4>Men premium jacket</h4>
+                  <p class="font-weight-black pt-1 text-m">
+                    ₹2000 <small class="discount-price">₹1000</small>
+                  </p>
+                  <p class="py-1 discount text-m">50% Off</p>
+                  <button class="btn btn-primary my-1">Remove from cart</button>
+                  <button class="btn btn-secondary">Move to wishlist</button>
+                </div>
+              </div>
+            </div>
+            <div class="card m-1">
+              <div class="card-section grid-2-col center-div">
+                <img
+                  class="card-img horizontal-card-img img-responsive p-1"
+                  src="../Assets/Images/card.svg"
+                  alt="card img"
+                />
+                <div class="card-header p-2">
+                  <h4>Men premium jacket</h4>
+                  <p class="font-weight-black pt-1 text-m">
+                    ₹2000 <small class="discount-price">₹1000</small>
+                  </p>
+                  <p class="py-1 discount text-m">50% Off</p>
+                  <button class="btn btn-primary my-1">Remove from cart</button>
+                  <button class="btn btn-secondary">Move to wishlist</button>
+                </div>
+              </div>
+            </div>
+            <div class="card m-1">
+              <div class="card-section grid-2-col center-div">
+                <img
+                  class="card-img horizontal-card-img img-responsive p-1"
+                  src="../Assets/Images/card.svg"
+                  alt="card img"
+                />
+                <div class="card-header p-2">
+                  <h4>Men premium jacket</h4>
+                  <p class="font-weight-black pt-1 text-m">
+                    ₹2000 <small class="discount-price">₹1000</small>
+                  </p>
+                  <p class="py-1 discount text-m">50% Off</p>
+                  <button class="btn btn-primary my-1">Remove from cart</button>
+                  <button class="btn btn-secondary">Move to wishlist</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="price px-3">
+            <div class="card price-card m-1 p-1">
+              <div class="card-section">
+                <div class="card-header p-1">
+                  <h4 class="card-heading pb-1">PRICE DETAILS</h4>
+                  <hr class="separator" />
+                  <div class="flex-between py-1">
+                    <p>Price <span>(2 items)</span></p>
+                    <p>₹4000</p>
+                  </div>
+                  <div class="flex-between py-1">
+                    <p>Discount</p>
+                    <p>- ₹2000</p>
+                  </div>
+                  <div class="flex-between py-1">
+                    <p>Delivery Charges</p>
+                    <p>₹200</p>
+                  </div>
+                </div>
+                <hr class="separator" />
+                <div class="card-disc p-1 flex-between">
+                  <h4>TOTAL AMOUNT</h4>
+                  <h4>₹2200</h4>
+                </div>
+                <hr class="separator" />
+                <p class="p-2">You will save ₹2000 on this order</p>
+              </div>
+              <hr class="separator" />
+              <div class="card-footer p-1">
+                <a class="p-1">PLACE ORDER</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>

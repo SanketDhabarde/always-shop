@@ -1,35 +1,14 @@
-@import url('./variables.css');
+@import url("./variables.css");
+/* header */
+@import url("./header.css");
 
 header {
-  height: 10vh;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  position: sticky;
-  top: 0;
-  background-color: var(--primary-bg);
-  z-index: 1;
+  border-bottom: none;
 }
 
-.header-brand > a {
-  font-family: "Marck Script", cursive;
-  font-size: 2rem;
-  color: var(--primary-color);
-  font-weight: bold;
-}
-
-.heading{
+.heading {
   justify-content: flex-start;
   gap: 1rem;
-}
-
-.search {
-  width: 30vw;
-}
-
-.nav {
-  gap: 1.5rem;
 }
 
 .grid-1-4-col {
@@ -47,20 +26,19 @@ header {
   flex-direction: column;
 }
 
-.filter-header{
+.filter-header {
   justify-content: space-between;
 }
 
-.filter-header .btn-link{
+.filter-header .btn-link {
   text-decoration: underline;
 }
 
 /* card */
-.card .btn{
+.card .btn {
   width: 100%;
   margin: 0;
   border-radius: 5px;
-  color: var(--primary-text);
 }
 
 .card-img {
@@ -68,23 +46,23 @@ header {
   height: 10rem;
 }
 
-.card-header{
+.card-header {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
 
-.discount{
+.discount {
   text-decoration: line-through;
 }
 
 /* product list */
-.product-list{
+.product-list {
   display: flex;
   flex-wrap: wrap;
 }
 
-main{
+main {
   height: 90vh;
   overflow-y: scroll;
   background-color: var(--product-list-bg);
