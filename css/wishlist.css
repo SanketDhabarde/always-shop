@@ -1,0 +1,42 @@
+@import url("./header.css");
+
+/* card */
+.card {
+  width: 15rem;
+}
+
+.card-header {
+  flex-direction: column;
+}
+
+.btn-secondary {
+  width: 100%;
+}
+
+.card-header:hover {
+  background: none;
+}
+
+/* product lists */
+.products {
+  height: 70vh;
+  overflow-y: scroll;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* scroll */
+::-webkit-scrollbar {
+  width: 0.3em;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
