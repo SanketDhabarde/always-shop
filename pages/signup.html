@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- UI library -->
+    <link
+      rel="stylesheet"
+      href="https://always-ui.netlify.app/CSS/always.css"
+    />
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="../css/login.css" />
+    <link rel="stylesheet" href="../css/signup.css" />
+
+    <title>E- commerce | Signup</title>
+  </head>
+  <body>
+    <div class="container px-3">
+      <header>
+        <div class="header-brand">
+          <a href="../index.html" class="btn-link">Always Shop</a>
+        </div>
+        <div class="search">
+          <i class="far fa-search"></i>
+          <input
+            type="text"
+            placeholder="Search..."
+            class="input-textbox p-1"
+          />
+        </div>
+        <div class="nav center-div">
+          <button class="btn">Logout</button>
+          <a
+            href="../pages/wishlist.html"
+            class="badge-icon-wrapper center-div p-1 btn-link"
+          >
+            <i class="far fa-heart"></i>
+            <span class="badge-icon">0</span>
+          </a>
+          <a
+            href="../pages/cart.html"
+            class="badge-icon-wrapper center-div p-1 btn-link"
+          >
+            <i class="fas fa-cart-plus"></i>
+            <span class="badge-icon">6</span>
+          </a>
+        </div>
+      </header>
+      <main class="p-3 center-div">
+        <div class="card card-shadow m-1">
+          <div class="card-section">
+            <div class="card-header p-2">
+              <h3 class="center-div">Signup</h3>
+              <form>
+                <div class="form-group my-2">
+                  <label for="email">Email address</label>
+                  <input
+                    type="email"
+                    class="input-textbox p-1"
+                    placeholder="Enter email"
+                    id="email"
+                  />
+                </div>
+                <div class="form-group my-2">
+                  <label for="first-name">First Name</label>
+                  <input
+                    type="text"
+                    class="input-textbox p-1"
+                    placeholder="Enter first name"
+                    id="first-name"
+                  />
+                </div>
+                <div class="form-group my-2">
+                  <label for="last-name">Last Name</label>
+                  <input
+                    type="text"
+                    class="input-textbox p-1"
+                    placeholder="Enter last name"
+                    id="last-name"
+                  />
+                </div>
+                <div class="form-group my-2">
+                  <label for="password">Password</label>
+                  <input
+                    type="password"
+                    class="input-textbox p-1"
+                    id="password"
+                    placeholder="Password"
+                    id="password"
+                  />
+                  <span class="show-password">
+                    <i class="far fa-eye"></i>
+                  </span>
+                </div>
+                <div class="form-group my-2">
+                  <label for="c-password">Confirm password</label>
+                  <input
+                    type="password"
+                    class="input-textbox p-1"
+                    id="password"
+                    placeholder="Password"
+                    id="c-password"
+                  />
+                  <span class="show-password">
+                    <i class="far fa-eye"></i>
+                  </span>
+                </div>
+                <div class="form-check my-2">
+                  <div>
+                    <input
+                      type="checkbox"
+                      class="form-check-input"
+                      id="conditions"
+                    />
+                    <label class="form-check-label" for="conditions"
+                      >I accept all Terms & Conditions</label
+                    >
+                  </div>
+                </div>
+                <button type="submit" class="btn btn-primary">
+                  Create new account
+                </button>
+              </form>
+              <div class="center-div">
+                <a href="./login.html" class="btn-link"
+                  >Already have an account ></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
