@@ -35,25 +35,26 @@ header {
 }
 
 /* card */
-.card .btn {
+.card{
+  width: 25rem;
+}
+
+.btn {
   width: 100%;
-  margin: 0;
-  border-radius: 5px;
+  margin: 0.5em 0;
 }
 
-.card-img {
-  width: 10rem;
-  height: 10rem;
-}
-
-.card-header {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
+.discount-price {
+  text-decoration: line-through;
+  color: var(--secondary-text);
 }
 
 .discount {
-  text-decoration: line-through;
+  color: var(--secondary-text);
+}
+
+.card-header:hover{
+  background: none;
 }
 
 /* product list */
