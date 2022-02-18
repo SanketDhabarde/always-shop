@@ -2,7 +2,7 @@
 
 An E-commerce application currently made using `html` & `css`.
 
-## Pages include
+## Features
 - Home page
 - Product Listing Page
 - Filters by
