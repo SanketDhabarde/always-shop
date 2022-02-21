@@ -1,35 +1,34 @@
-@import url('./variables.css');
-@import url('./header.css');
+@import url("./variables.css");
 
 /* login card */
-main{
-    height: 80vh;
+main {
+  height: 80vh;
 }
 
-.card-header:hover{
-    background: none;
+.card-header:hover {
+  background: none;
 }
 
 /* form */
-.form-group{
-    display: flex;
-    flex-direction: column;
+.form-group {
+  display: flex;
+  flex-direction: column;
 }
 
-.form-check{
-    display: flex;
-    justify-content: space-between;
+.form-check {
+  display: flex;
+  justify-content: space-between;
 }
 
-form .btn{
-    width: 100%;
-    margin-left: 0;
+form .btn {
+  width: 100%;
+  margin-left: 0;
 }
 
-form .input-textbox{
-    width: 100%;
+form .input-textbox {
+  width: 100%;
 }
 
-.link{
-    color: var(--link);
+.link {
+  color: var(--link);
 }

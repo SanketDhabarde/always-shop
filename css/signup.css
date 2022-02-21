@@ -1,17 +1,16 @@
-@import url('./variables.css');
-@import url('./header.css');
+@import url("./variables.css");
 
-.card{
-    width: 30rem;
+.card {
+  width: 30rem;
 }
 
 /* form */
-.form-group{
-    position: relative;
+.form-group {
+  position: relative;
 }
 
-.show-password{
-    position: absolute;
-    top: 50%;
-    right: 3%;
+.show-password {
+  position: absolute;
+  top: 50%;
+  right: 3%;
 }

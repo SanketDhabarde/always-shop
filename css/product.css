@@ -1,7 +1,4 @@
 @import url("./variables.css");
-/* header */
-@import url("./header.css");
-
 header {
   border-bottom: none;
 }
@@ -35,7 +32,7 @@ header {
 }
 
 /* card */
-.card{
+.card {
   width: 25rem;
 }
 
@@ -53,7 +50,7 @@ header {
   color: var(--secondary-text);
 }
 
-.card-header:hover{
+.card-header:hover {
   background: none;
 }
 
