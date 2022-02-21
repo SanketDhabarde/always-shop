@@ -1,5 +1,10 @@
 @import url("./variables.css");
 
+/* header */
+header{
+  border-bottom: 1px solid var(--secondary-color);
+}
+
 /* login card */
 main {
   height: 80vh;
