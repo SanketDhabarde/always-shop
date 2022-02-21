@@ -24,6 +24,10 @@
   color: var(--secondary-text);
 }
 
+.quantity{
+  border: 1px solid var(--secondary-text);
+}
+
 /* cart */
 .products {
   height: 70vh;

@@ -8,9 +8,9 @@ header {
   gap: 1rem;
 }
 
-.grid-1-4-col {
+.grid-1-5-col {
   display: grid;
-  grid-template-columns: 1fr 4fr;
+  grid-template-columns: 1fr 5fr;
 }
 
 /* sidebar */
@@ -33,21 +33,16 @@ header {
 
 /* card */
 .card {
-  width: 25rem;
+  width: 15rem;
 }
 
-.btn {
+.card-header {
+  flex-direction: column;
+}
+
+.btn-secondary,
+.btn-primary {
   width: 100%;
-  margin: 0.5em 0;
-}
-
-.discount-price {
-  text-decoration: line-through;
-  color: var(--secondary-text);
-}
-
-.discount {
-  color: var(--secondary-text);
 }
 
 .card-header:hover {
