@@ -11,6 +11,12 @@
 }
 
 /* sidebar */
+.sidebar{
+  height: 85vh;
+  overflow-y: scroll;
+  border-right: 1px solid var(--secondary-color) ;
+}
+
 .flex {
   display: flex;
 }
@@ -55,7 +61,6 @@
 main {
   height: 90vh;
   overflow-y: scroll;
-  background-color: var(--product-list-bg);
 }
 
 main::-webkit-scrollbar {
