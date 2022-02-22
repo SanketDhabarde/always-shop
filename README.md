@@ -1,6 +1,6 @@
 # Always Shop
 
-An E-commerce application currently made using `html` & `css`.
+> An E-commerce application currently made using `html` & `css`.
 
 ## Features
 - [Home page](https://always-shop.netlify.app/)
